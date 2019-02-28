@@ -4,7 +4,7 @@ This is a Chrome extension that allows you to apply custom Javascript and CSS in
 
 ## Installation
 
-To enable, go to `chrome://extensions` in your browser and enable developer mode. Click **Load unpacked extension...** and select the directory where this is stored.
+To enable, go to `chrome://extensions` in your browser and enable developer mode. Click **Load unpacked extension...** and select the directory where you've cloned this project.
 
 ## Modifying Javascript
 
