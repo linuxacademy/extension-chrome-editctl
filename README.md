@@ -12,7 +12,7 @@ The custom Javascript that will be applied can be found at `js/content.js`. Any 
 
 ## Modifying CSS
 
-The custom CSS that will be applied can be found at `css/content.js`. Any code you add to this file will be run on each page load after other CSS files have been loaded.
+The custom CSS that will be applied can be found at `css/content.css`. Any code you add to this file will be run on each page load after other CSS files have been loaded.
 
 > You may need to apply `!important` to CSS rules you add this way. If you're trying to apply a style and it's not showing up correctly, try adding that.
 
