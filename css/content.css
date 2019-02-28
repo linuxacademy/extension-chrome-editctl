@@ -1,0 +1,19 @@
+/*
+  Enter any custom CSS here - it will be applied
+  across the entire cloudcraft.linuxacademy.com domain
+*/
+
+/* =============== */
+
+/*
+  Example: Fixes a known issue where video description editor
+  disappears when the preview pane includes a long line
+*/
+.editor-container > div {
+  max-width: 50% !important;
+}
+
+.editor-panel,
+.preview-panel {
+  height: 600px !important;
+}

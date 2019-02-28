@@ -1,0 +1,95 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  width: 400px;
+  padding: 0;
+}
+
+header {
+  background-color: #e544d2;
+  color: white;
+  margin-bottom: 1.4rem;
+  padding: 0.6rem 0;
+}
+
+h1 {
+  margin: 0 auto;
+  width: 80%;
+  font-size: 2.4rem;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+p {
+  margin-bottom: 0.8rem;
+}
+
+.description {
+  font-size: 1.4rem;
+  margin-bottom: 1.4rem;
+}
+
+.or {
+  position: relative;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1.4rem;
+}
+
+.or::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 40%;
+  height: 2px;
+  background-color: #4a4a4a;
+  margin-top: 0.6rem;
+}
+
+.or::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  width: 40%;
+  height: 2px;
+  background-color: #4a4a4a;
+  margin-top: 0.6rem;
+}
+
+.bug {
+  display: block;
+  color: white;
+  background-color: #e544d2;
+  padding: 0.6rem;
+  font-size: 1.6rem;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 2.4rem;
+}
+
+.bug:hover {
+  cursor: pointer;
+  background-color: #cc00b3;
+}

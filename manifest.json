@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "CloudCraft DIY Bug Fixer",
+  "version": "0.1.0",
+  "author": "Phil Zona",
+  "icons": {},
+  "description": "Edit Javascript and CSS on CloudCraft",
+  "permissions": ["declarativeContent"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://cloudcraft.linuxacademy.com/*"],
+      "css": ["css/content.css"],
+      "js": ["js/content.js"]
+    }
+  ]
+}
